@@ -1,0 +1,305 @@
+{
+  "metadata": {
+    "input_documents": [
+      "1404.7828v4.pdf",
+      "IntroductiontoANNs.pdf"
+    ],
+    "persona": "I am a machine learning enthusiast. I want to learn about deep learning and neural networks.",
+    "job_to_be_done": "Prepare a comprehensive list of text snippets highlighting how neural networks work",
+    "processing_timestamp": "2025-07-28T23:28:53.361423"
+  },
+  "extracted_sections": [
+    {
+      "document": "1404.7828v4.pdf",
+      "page_number": 35,
+      "section_title": "References",
+      "importance_rank": 1
+    },
+    {
+      "document": "IntroductiontoANNs.pdf",
+      "page_number": 8,
+      "section_title": "Bothphysiciansandtheirpatientsareputunderpressure",
+      "importance_rank": 2
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "page_number": 77,
+      "section_title": "2013. TechnicalReportarXiv:1312.5548v1[cs.NE],TheSwissAILabIDSIA.",
+      "importance_rank": 3
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "page_number": 3,
+      "section_title": "UniversalRL . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33",
+      "importance_rank": 4
+    },
+    {
+      "document": "IntroductiontoANNs.pdf",
+      "page_number": 3,
+      "section_title": "Input Neuron Output",
+      "importance_rank": 5
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "page_number": 12,
+      "section_title": "Late1980s-2000andBeyond: NumerousImprovementsofNNs",
+      "importance_rank": 6
+    },
+    {
+      "document": "IntroductiontoANNs.pdf",
+      "page_number": 5,
+      "section_title": "Expert",
+      "importance_rank": 7
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "page_number": 1,
+      "section_title": "Preface",
+      "importance_rank": 8
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "page_number": 33,
+      "section_title": "UniversalRL",
+      "importance_rank": 9
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "page_number": 1,
+      "section_title": "Abstract",
+      "importance_rank": 10
+    },
+    {
+      "document": "IntroductiontoANNs.pdf",
+      "page_number": 1,
+      "section_title": "SEE PROFILE SEE PROFILE",
+      "importance_rank": 11
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "page_number": 30,
+      "section_title": "DeepFNNsforTraditionalRLandMarkovDecisionProcesses(MDPs)",
+      "importance_rank": 12
+    },
+    {
+      "document": "IntroductiontoANNs.pdf",
+      "page_number": 5,
+      "section_title": "Theory",
+      "importance_rank": 13
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "page_number": 27,
+      "section_title": "RecentTricksforImprovingSLDeepNNs(CompareSec.5.6.2,5.6.3)",
+      "importance_rank": 14
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "page_number": 10,
+      "section_title": "Around1960: VisualCortexProvidesInspirationforDL(Sec.5.4,5.11)",
+      "importance_rank": 15
+    }
+  ],
+  "sub_section_analysis": [
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "(2006).ClassificationwithBayesianneuralnetworks.InQuinonero-Candela,J.,Magnini, B.,Dagan,I.,andD’Alche-Buc,F.,editors,MachineLearningChallenges.EvaluatingPredictive Uncertainty, Visual Object Classification, and Recognising Textual Entailment, volume 3944 of LectureNotesinComputerScience,pages28–32.Springer. Neal,R.M.andZhang,J.(2006). HighdimensionalclassificationwithBayesianneuralnetworksand Dirichletdiffusiontrees.",
+      "page_number": 35
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "(2008). A unified architecture for natural language processing: Deep neuralnetworkswithmultitasklearning. InProceedingsofthe25thInternationalConferenceon MachineLearning(ICML),pages160–167.ACM.",
+      "page_number": 35
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "LSTM recurrent networks learn simple context free and contextsensitivelanguages. IEEETransactionsonNeuralNetworks,12(6):1333–1340. Gers,F.A.,Schmidhuber,J.,andCummins,F.(2000).",
+      "page_number": 35
+    },
+    {
+      "document": "IntroductiontoANNs.pdf",
+      "refined_text": "2 McClellandJL,RumelhartDE,editors.Explorationsinparalleldistributed 25 DietterichTG.Approximatestatisticaltestsforcomparingsupervised processing.Cambridge,Massachusetts:MITPress;1986. classificationlearningalgorithms.NeuralComput1998;7:1895–1924. KK This book is the historical reference text on the neurocomputing origins, KK This article describes one of the most popular validation protocol, which contains a comprehensive compilation of neural network theories and the5(cid:2)2crossvalidation. r...",
+      "page_number": 8
+    },
+    {
+      "document": "IntroductiontoANNs.pdf",
+      "refined_text": "20 WillshawDJ,VonderMalsburgC.Howpatternedneuralconnection Acknowledgements canbesetupbySelf-Organization.ProcRSocLondonB1976;94: 431–445. TheauthorswanttoexpresstheirgratitudetoAlessandra KTheearlynetworkmodelthatperformsself-organizationprocesseshasbeen Mancini for her precious help in reviewing the literature exposedinpapersfromVonderMalsburgandWillshaw. and assisting in manuscript preparation.",
+      "page_number": 8
+    },
+    {
+      "document": "IntroductiontoANNs.pdf",
+      "refined_text": "ANNs allow this. Physicians are more and more aware of the fact that the It is theoretically possible to train hundreds of neural individual patient is not an average representative of the networks with the same data set, resulting in a sizeable population. Rather she/he is a person with unique assemblyofANNswithasimilaraverageperformancebut characteristics, predicaments, and types and levels of with the predisposition to make different mistakes at sensibility; they are also aware that preventio...",
+      "page_number": 8
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "(1997). Learning a context-free task with a recurrent neural network: An analysisofstability.InProceedingsoftheFourthBiennialConferenceoftheAustralasianCognitive ScienceSociety. Towell, G. G. and Shavlik, J. W. (1994).",
+      "page_number": 77
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "Shao, L., Wu, D., andLi, X.(2014). Learningdeepandwide: Aspectralmethodforlearningdeep networks. IEEETransactionsonNeuralNetworksandLearningSystems.",
+      "page_number": 77
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "Man vs. computer: Benchmarking machinelearningalgorithmsfortrafficsignrecognition. NeuralNetworks,32:323–332. Stanley,K.O.,D’Ambrosio,D.B.,andGauci,J.(2009).",
+      "page_number": 77
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "7 ConclusionandOutlook 34 8 Acknowledgments 35 AbbreviationsinAlphabeticalOrder AE:Autoencoder HTM:HierarchicalTemporalMemory AI:ArtificialIntelligence HMAX:HierarchicalModel“andX” ANN:ArtificialNeuralNetwork LSTM:LongShort-TermMemory(RNN) BFGS:Broyden-Fletcher-Goldfarb-Shanno MDL:MinimumDescriptionLength BNN:BiologicalNeuralNetwork MDP:MarkovDecisionProcess BM:BoltzmannMachine MNIST: Mixed National Institute of Standards BP:Backpropagation andTechnologyDatabase BRNN:Bi-directionalRecurrentNeura...",
+      "page_number": 3
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "Therearegeneralcreditassignmentmethodsforuniversalproblemsolversthat aretime-optimalinvarioustheoreticalsenses(Sec.6.8). Thepresentsurvey,however,willfocuson thenarrower, butnowcommerciallyimportant, subfieldofDeepLearning(DL)inArtificialNeural Networks(NNs). A standard neural network (NN) consists of many simple, connected processors called neurons, eachproducingasequenceofreal-valuedactivations.Inputneuronsgetactivatedthroughsensorsper- ceivingtheenvironment, otherneuronsgetactivatedthroughwei...",
+      "page_number": 3
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "3), where each stage transforms (of- teninanon-linearway)theaggregateactivationofthenetwork. DeepLearningisaboutaccurately assigningcreditacrossmanysuchstages. ShallowNN-likemodelswithfewsuchstageshavebeenaroundformanydecadesifnotcenturies (Sec.5.1).",
+      "page_number": 3
+    },
+    {
+      "document": "IntroductiontoANNs.pdf",
+      "refined_text": "The way through which the nodes Backpropagationneuralnetworkarchitecture. modify themselves is called ‘Law of Learning’. The total dynamic of an ANN is tied to time.",
+      "page_number": 3
+    },
+    {
+      "document": "IntroductiontoANNs.pdf",
+      "refined_text": "In fact, forthe ANN to modify its own connections, the environment has to necessarilyactontheANNmoretimes[6].Dataarethe rules written into the algorithm. The network just learns environmentthatactsontheANN.Thelearningprocess to understand and classify input patterns from examples. is,therefore,oneofthekeymechanismsthatcharacterize the ANN, which are considered adaptive processing Basic neural networks can normally be obtained with systems.",
+      "page_number": 3
+    },
+    {
+      "document": "IntroductiontoANNs.pdf",
+      "refined_text": "The learning process is one way to adapt the statistical computer software packages. Some companies connections of an ANN to the data structure that make offer specialized software to work with different neural uptheenvironmentand,therefore,awayto‘understand’ networks (e.g. NeuralWorks Professional by NeuralWare the environment and the relations that characterize it Inc., Carnegie, Pennsylvania, USA [17] or CLEMEN- [7–10].",
+      "page_number": 3
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "Generally speaking, although BP allows for deep problems in principle, it seemed to work only forshallowproblems. Thelate1980sandearly1990ssawafewideaswithapotentialtoovercome thisproblem,whichwasfullyunderstoodonlyin1991(Sec.5.9). 5.6.1 IdeasforDealingwithLongTimeLagsandDeepCAPs Todealwithlongtimelagsbetweenrelevantevents,severalsequenceprocessingmethodswerepro- posed,includingFocusedBPbasedondecayfactorsforactivationsofunitsinRNNs(Mozer,1989, 1992), Time-DelayNeuralNetworks(TDNNs)(Langetal.,19...",
+      "page_number": 12
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "TheDeepBeliefNetwork(DBN)isastackofRestrictedBoltzmannMachines(RBMs)(Smolen- sky,1986),whichinturnareBoltzmannMachines(BMs)(HintonandSejnowski,1986)withasingle layer of feature-detecting units; compare also Higher-Order BMs (Memisevic and Hinton, 2010). Each RBM perceives pattern representations from the level below and learns to encode them in un- supervised fashion. At least in theory under certain assumptions, adding more layers improves a boundonthedata’snegativelogprobability(Hintonetal.,20...",
+      "page_number": 12
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "5.10 1991: UL-BasedHistoryCompressionThroughaDeepStackofRNNs AworkingVeryDeepLearner(Sec.3)of1991(Schmidhuber,1992b,2013a)couldperformcreditas- signmentacrosshundredsofnonlinearoperatorsorneurallayers,byusingunsupervisedpre-training forahierarchyofRNNs. Thebasicideaisstillrelevanttoday. EachRNNistrainedforawhileinunsupervisedfashionto predictitsnextinput(e.g.,Connoretal.,1994;Dorffner,1996).Fromthenon,onlyunexpectedinputs (errors)conveynewinformationandgetfedtothenexthigherRNNwhichthusticksonasl...",
+      "page_number": 12
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "The DL research community itself may be viewed as a continually evolving, deepnetworkofscientistswhohaveinfluencedeachotherincomplexways. StartingfromrecentDL results, I tried to trace back the origins of relevant ideas through the past half century and beyond, sometimesusing“localsearch”tofollowcitationsofcitationsbackwardsintime. SincenotallDL publicationsproperlyacknowledgeearlierrelevantwork,additionalglobalsearchstrategieswereem- ployed,aidedbyconsultingnumerousneuralnetworkexperts.Asaresul...",
+      "page_number": 1
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "This is the preprint of an invited Deep Learning (DL) overview. One of its goals is to assign credit tothosewhocontributedtothepresentstateoftheart. Iacknowledgethelimitationsofattempting to achieve this goal.",
+      "page_number": 1
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "Nevertheless, through an expert selection bias I may have missed important work. A related bias was surely introduced by my special familiarity with the work of my own DL researchgroupinthepastquarter-century. Forthesereasons,thisworkshouldbeviewedasmerelya snapshotofanongoingcreditassignmentprocess.",
+      "page_number": 1
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "7 Conclusion and Outlook Deep Learning (DL) in Neural Networks (NNs) is relevant for Supervised Learning (SL) (Sec. 5), Unsupervised Learning (UL) (Sec. 5), and Reinforcement Learning (RL) (Sec.",
+      "page_number": 33
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "General purpose learning algorithms may improve themselves in open-ended fashion and environment-specific ways in a lifelong learning context (Schmidhuber, 1987; Schmidhuber et al., 1997b,a; Schaul and Schmidhuber, 2010). The most general type of RL is constrained only by the fundamental limitations of computability identified by the founders of theoretical computer science (Go¨del,1931;Church,1936;Turing,1936;Post,1936). Remarkably,thereexistblueprintsofuniver- sal problem solvers or universal ...",
+      "page_number": 33
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "Unlikethesesystems,humanslearntoactivelyperceivepatternsbysequentiallydirectingatten- tiontorelevantpartsoftheavailabledata. NearfuturedeepNNswilldoso,too,extendingprevious worksince1990onNNsthatlearnselectiveattentionthroughRLof(a)motoractionssuchassaccade control(Sec.6.1)and(b)internalactionscontrollingspotlightsofattentionwithinRNNs,thusclosing thegeneralsensorimotorloopthroughbothexternalandinternalfeedback(e.g.,Sec.2,5.21,6.6,6.7). ManyfuturedeepNNswillalsotakeintoaccountthatitcostsenergyto...",
+      "page_number": 33
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "Inrecentyears,deepartificialneuralnetworks(includingrecurrentones)havewonnumerous contestsinpatternrecognitionandmachinelearning.Thishistoricalsurveycompactlysummarises relevant work, much of it from the previous millennium. Shallow and deep learners are distin- guishedbythedepthoftheircreditassignmentpaths,whicharechainsofpossiblylearnable,causal linksbetweenactionsandeffects.Ireviewdeepsupervisedlearning(alsorecapitulatingthehistory ofbackpropagation),unsupervisedlearning,reinforcementlearning...",
+      "page_number": 1
+    },
+    {
+      "document": "IntroductiontoANNs.pdf",
+      "refined_text": "nonlinearity,prognosis These tools can offerspecific advantages withrespectto classicalstatisticaltechniques. Thisarticle is designed to aBraccoSpaMedicalDepartment,Milan,ItalyandbSemeionResearchCentre forScienceandCommunication,Trigoria,Rome acquaintgastroenterologistswithconceptsandparadigms relatedto ANNs.The familyofANNs,when appropriately CorrespondencetoEnzoGrossi,MedicalDepartment,BraccoSpA, selected andused, permitsthe maximizationofwhat can ViaE.Folli5020136Milano E-mail:enzo.grossi@bra...",
+      "page_number": 1
+    },
+    {
+      "document": "IntroductiontoANNs.pdf",
+      "refined_text": "priate means of answering the emerging issues and ‘demands’ of medical science, and in particular of In simple words, we have a problem of quantity and gastroenterology. quality of medical information, which can be more appropriately addressed bytheuseofnewcomputational We are currently facing a paradox of sorts in which the tools such as ANNs. amount of progress in the quality of the delivery of medical care in the everyday routine context of gastro- What areartificial neural networks?",
+      "page_number": 1
+    },
+    {
+      "document": "IntroductiontoANNs.pdf",
+      "refined_text": "All content following this page was uploaded by Enzo Grossi on 31 July 2019. The user has requested enhancement of the downloaded file. 1046 Reviewindepth Introduction to artificial neural networks Enzo Grossia and Massimo Buscemab The couplingof computerscience andtheoretical bases oftenpoorlypredictableinthetraditional‘causeandeffect’ suchasnonlineardynamics andchaostheoryallows the philosophy.",
+      "page_number": 1
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "Perhapsthemostwell-knownRLNNistheworld-classRLbackgammonplayer(Tesauro,1994), which achieved the level of human world champions by playing against itself. Its nonlinear, rather shallow FNN maps a large but finite number of discrete board states to values. More recently, a ratherdeepGPU-CNNwasusedinatraditionalRLframeworktoplayseveralAtari2600computer gamesdirectlyfrom84x84pixel60Hzvideoinput(Mnihetal.,2013),usingexperiencereplay(Lin, 1993), extending previous work on Neural Fitted Q-Learning (NF...",
+      "page_number": 30
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "TheclassicalapproachtoRL(Samuel,1959;BertsekasandTsitsiklis,1996)makesthesimplifying assumption of Markov Decision Processes (MDPs): the current input of the RL agent conveys all information necessary to compute an optimal next output event or decision. This allows for greatly reducingCAPdepthinRLNNs(Sec.3,6.1)byusingtheDynamicProgramming(DP)trick(Bellman, 1957). Thelatterisoftenexplainedinaprobabilisticframework(e.g.,SuttonandBarto,1998), but its basic idea can already be conveyed in a determin...",
+      "page_number": 30
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "t k ManyvariantsoftraditionalRLexist(e.g.,Bartoetal.,1983;Watkins,1989;WatkinsandDayan, 1992;MooreandAtkeson,1993;Schwartz,1993;RummeryandNiranjan,1994;Singh,1994;Baird, 1995; Kaelbling et al., 1995; Peng and Williams, 1996; Mahadevan, 1996; Tsitsiklis and van Roy, 1996;Bradtkeetal.,1996;Santamar´ıaetal.,1997;ProkhorovandWunsch,1997;SuttonandBarto, 1998;WieringandSchmidhuber,1998b;BairdandMoore,1999;Meuleauetal.,1999;Morimotoand Doya,2000;Bertsekas,2001;BrafmanandTennenholtz,2002;Abounadietal.,2...",
+      "page_number": 30
+    },
+    {
+      "document": "IntroductiontoANNs.pdf",
+      "refined_text": "NeuralnetworksGrossiandBuscema 1049 Schematiccomparisonofartificialneuralnetwork(ANN)withother analysistechniques.Comparedwithotheranalysistechniques,ANNs areusefulwhenonehasaproblemwithalotofavailabledatabutno goodtheorytoexplainthem. Copyright © Lippincott Williams & Wilkins. Unauthorized reproduction of this article is prohibited.",
+      "page_number": 5
+    },
+    {
+      "document": "IntroductiontoANNs.pdf",
+      "refined_text": "1050 EuropeanJournalofGastroenterology&Hepatology 2007, Vol19No12 Figure 6 summarizes the conditions that best claim for group of variables to be selected with another family neural networks analysis. of artificial adaptive systems: evolutionary algorithms (EAs). A special feature of neural networks analysis: variables selection Evolutionary algorithms ANNs are able to simultaneously handle a very high At variance with neural networks, which are adaptive number of variables notwithstanding their...",
+      "page_number": 5
+    },
+    {
+      "document": "IntroductiontoANNs.pdf",
+      "refined_text": "Unauthorized reproduction of this article is prohibited. NeuralnetworksGrossiandBuscema 1051 Fig.7 IS system selects the best input variables set New population",
+      "page_number": 5
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "DBNtraining(Sec.5.15)canbeimprovedthroughgradientenhancementsandautomaticlearningrate adjustmentsduringstochasticgradientdescent(Choetal.,2013;Cho,2014),andthroughTikhonov- type(Tikhonovetal.,1977)regularizationofRBMs(Choetal.,2012). ContractiveAEs(Rifaietal., 2011) discourage hidden unit perturbations in response to input perturbations, similar to how FMS (Sec.5.6.3)forLOCOCODEAEs(Sec.5.6.4)discouragesoutputperturbationsinresponsetoweight perturbations. HierarchicalCNNsinaNeuralAbstractionPyram...",
+      "page_number": 27
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "ComparerecentworkonvariationalrecurrentAEs(BayerandOsendorfer,2014). The activation function f of Rectified Linear Units (ReLUs) is f(x) = x for x > 0,f(x) = 0 otherwise—compare the old concept of half-wave rectified units (Malik and Perona, 1990). ReLU NNs are useful for RBMs (Nair and Hinton, 2010; Maas et al., 2013), outperformed sigmoidal ac- tivation functions in deep NNs (Glorot et al., 2011), and helped to obtain best results on several benchmarkproblemsacrossmultipledomains(e.g.,Krizhevs...",
+      "page_number": 27
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "NNs with competing linear units tend to outperform those with non-competing nonlinear units, andavoidcatastrophicforgettingthroughBPwhentrainingsetschangeovertime(Srivastavaetal., 2013). Inthiscontext,choosingalearningalgorithmmaybemoreimportantthanchoosingactivation functions (Goodfellow et al., 2014a). Maxout NNs (Goodfellow et al., 2013) combine competitive interactions and dropout (see above) to achieve excellent results on certain benchmarks.",
+      "page_number": 27
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "This inspired later deep NN architectures (Sec. 5.4, 5.11) used in certain modern award-winning Deep Learners(Sec.5.19–5.22). 5.3 1965: DeepNetworksBasedontheGroupMethodofDataHandling Networks trained by the Group Method of Data Handling (GMDH) (Ivakhnenko and Lapa, 1965; Ivakhnenko et al., 1967; Ivakhnenko, 1968, 1971) were perhaps the first DL systems of the Feed- forward Multilayer Perceptron type, although there was earlier work on NNs with a single hidden layer(e.g.,Joseph,1961;Viglione,197...",
+      "page_number": 10
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "To my knowledge, this was the first example of open-ended, hierar- chicalrepresentationlearninginNNs(Sec.4.3). Apaperof1971alreadydescribedadeepGMDH networkwith8layers(Ivakhnenko,1971). TherehavebeennumerousapplicationsofGMDH-style nets,e.g.",
+      "page_number": 10
+    },
+    {
+      "document": "1404.7828v4.pdf",
+      "refined_text": "However,theybackpropagated derivativeinformationthroughstandardJacobianmatrixcalculationsfromone“layer”totheprevious one,withoutexplicitlyaddressingeitherdirectlinksacrossseverallayersorpotentialadditionaleffi- ciencygainsduetonetworksparsity(butperhapssuchenhancementsseemedobvioustotheauthors). Given all the prior work on learning in multilayer NN-like systems (see also Sec. 5.3 on deep non- linearnetssince1965),itseemssurprisinginhindsightthatabook(MinskyandPapert,1969)onthe limitations of sim...",
+      "page_number": 10
+    }
+  ]
+}

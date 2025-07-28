@@ -1,0 +1,57 @@
+# Approach Explanation: Persona-Driven Document Intelligence
+
+## Overview
+Our solution implements a multi-stage pipeline that analyzes document collections through the lens of specific personas and their job requirements. The system combines natural language processing, information retrieval, and relevance scoring to extract and rank the most pertinent content.
+
+## Core Methodology
+
+### 1. Document Structure Extraction
+- **PDF Processing**: Uses `pdfplumber` for robust text extraction while preserving document structure
+- **Section Detection**: Employs pattern-based heading detection using regex patterns for numbered sections, chapter headings, and formatted titles
+- **Content Segmentation**: Organizes text into logical sections with associated metadata (page numbers, titles)
+
+### 2. Persona and Job Analysis
+- **Keyword Extraction**: Dynamically generates relevant keywords based on persona roles (researcher, student, analyst, etc.)
+- **Domain Mapping**: Maps persona descriptions to domain-specific vocabularies (biology, chemistry, finance)
+- **Job Intent Analysis**: Parses job-to-be-done descriptions to identify key action words and required outcomes
+
+### 3. Relevance Scoring Algorithm
+- **TF-IDF Vectorization**: Converts document sections into numerical representations using scikit-learn's TfidfVectorizer
+- **Cosine Similarity**: Calculates semantic similarity between persona/job requirements and document sections
+- **Multi-factor Scoring**: Combines similarity scores with keyword matching bonuses:
+  - Persona keyword matches (30% weight)
+  - Job-specific keyword matches (40% weight)  
+  - Title/heading matches (50% weight)
+
+### 4. Sub-section Analysis
+- **Sentence Segmentation**: Uses NLTK for intelligent sentence boundary detection
+- **Paragraph Grouping**: Clusters related sentences into coherent subsections
+- **Granular Ranking**: Applies same relevance scoring at paragraph level for refined content extraction
+
+## Technical Implementation
+
+### Libraries and Models
+- **pdfplumber**: PDF text extraction and structure analysis
+- **NLTK**: Natural language processing (tokenization, stopword removal, stemming)
+- **scikit-learn**: TF-IDF vectorization and similarity computation
+- **numpy**: Numerical computations for scoring algorithms
+
+### Performance Optimizations
+- **Preprocessing Pipeline**: Text cleaning and normalization to improve matching accuracy
+- **Fallback Mechanisms**: Simple keyword-based scoring when TF-IDF fails
+- **Memory Efficiency**: Processes documents in chunks to handle large collections within memory constraints
+
+### Output Format
+The system generates structured JSON output containing:
+- **Metadata**: Input documents, persona, job description, and processing timestamp
+- **Ranked Sections**: Top 15 most relevant sections with importance rankings
+- **Sub-section Analysis**: Granular content extraction with refined text snippets
+
+## Adaptability and Generalization
+The solution is designed to handle diverse scenarios through:
+- **Dynamic Keyword Generation**: Adapts to different personas and domains automatically  
+- **Pattern-based Structure Detection**: Works across various document formats and styles
+- **Configurable Scoring Weights**: Allows fine-tuning for different use cases
+- **Robust Error Handling**: Gracefully handles malformed PDFs and edge cases
+
+This approach ensures high relevance in content extraction while maintaining computational efficiency within the specified constraints.
